@@ -1,7 +1,7 @@
 # provider aws {
 #     region = "us-east-2"
 
-   
+
 # }
 
 resource "aws_instance" "web" {
@@ -14,7 +14,7 @@ resource "aws_instance" "web" {
 #export AWS_ACCESS_KEY_ID=""
 
 
-variable kaizen {}
+variable "kaizen" {}
 
 #3rd version to to run bellow command in terminal 
 #export TF_VAR_kaizen="t3.micro"
